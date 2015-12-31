@@ -1,0 +1,18 @@
+@mixin center() {
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+@mixin icon-style($width) {
+  width: $width;
+  height: $width;
+  line-height: $width;
+}
+@mixin size($width,$height) {
+  width: $width;
+  height: $height;
+}
+@mixin block-center() {
+  display: block;
+  margin: 0 auto;
+}
