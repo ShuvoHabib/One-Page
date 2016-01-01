@@ -1,2 +1,41 @@
 /* RESPONSIVE CSS
 -------------------------------------------------- */
+@media (min-width:991px){
+  .about-item {
+    width: 65%;
+  }
+}
+@media (max-width:1300px) {
+  .about-item {
+    padding: 20px 0 0;
+  }
+}
+@media (max-width:991px) {
+  .featured-img {
+    position:static;
+    width: 100%;
+  }
+  .featured-text:before {
+    left: 70px;
+    z-index: -1;
+  }
+  .about-item {
+    margin-top: 40px;
+    margin-left: 13px;
+    padding:0;
+  }
+  .banner .banner-text {
+    width: 90%;
+  }
+  .text-flow {
+    overflow: hidden;
+  }
+  .icon-flow {
+    position: static;
+    float: left;
+    margin-right: 30px;
+  }
+  .featured:before{
+    position: static;
+  }
+}

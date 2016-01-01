@@ -9,8 +9,7 @@
         <link rel="icon" href="img/favicon.ico">
 
         <title>Theme</title>
-        <link href='//fonts.googleapis.com/css?family=Open+Sans:400,400italic,600' rel='stylesheet' type='text/css'>
-        <link href='//fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
     
          <!--if lt IE 9
         script(src='http://html5shim.googlecode.com/svn/trunk/html5.js')
@@ -25,7 +24,7 @@
 
 
     <body>
-        <header>
+        <header id="header">
             <!--NAVBAR Start -->
             <div id="nav-stick" class="navbar-wrapper">
                 <div class="container">
@@ -70,17 +69,17 @@
                     <p>Etharums ser quidem rerum facilis dolores nemis omnis fugats vitaes nemo minima rerums unsers sadips amets. Etharums ser quidem rerum facilis dolores nemis omnis fugats vitaes nemo minima rerums unsers sadips amets. Etharums ser quidem rerum facilis dolores nemis omnis </p>
                     <a class="button text-center btn-default">View more</a>
                 </div>
-                <div class="arrow-up"></div>
             </div>
+            <div class="arrow-up"></div>
         </header>
         <div class="space-bottom"></div>
         <main>
-            <div class="container-fluid">
+            <div class="featured-section container-fluid">
                 <div class="row">
                     <div class="featured">
-                        <div class="col-md-6 featured-block">
-                            <div class="featured-img">
-                                <img src="img/macbook.png" alt="">
+                        <div class="col-md-6">
+                            <div class="featured-block">
+                                <img class="featured-img"  src="img/macbook.png" alt="">
                             </div>
                         </div>
                         <div class="col-md-6 featured-text">
@@ -125,10 +124,102 @@
                 </div>
             </div>
 
+            <div class="connection">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="carousel slide" id="fade-quote-carousel" data-ride="carousel" data-interval="5000">
+                                <!-- Carousel indicators -->
+                                <ol class="carousel-indicators">
+                                    <li data-target="#fade-quote-carousel" data-slide-to="0" class="active"></li>
+                                    <li data-target="#fade-quote-carousel" data-slide-to="1"></li>
+                                </ol>
+                                <!-- Carousel items -->
+                                <div class="carousel-inner">
+                                    <div class="active item">
+                                        <div class="testimonial-text text-center">
+                                            <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus.</p>
+                                        </div>
+                                        <div class="arrow-down"></div>
+                                        <div class="profile-circle">
+                                            <img src="http://placehold.it/350x150">
+                                        </div>
+                                        <blockquote>
+                                            <p class="author-name text-center">Margarita Rose</p>
+                                        </blockquote>
+                                    </div>
+                                    <div class="item">
+                                        <div class="testimonial-text text-center">
+                                            <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus.</p>
+                                        </div>
+                                        <div class="arrow-down"></div>
+                                        <div class="profile-circle">
+                                            <img src="http://placehold.it/350x150">
+                                        </div>
+                                        <blockquote>
+                                            <p class="author-name text-center">Margarita Rose</p>
+                                        </blockquote>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="inner contact">
+                                <!-- Form Area -->
+                                <div class="contact-form">
+                                    <!-- Form -->
+                                    <form id="contact-us" method="post" action="#">
+                                        <!-- Left Inputs -->
+                                        <div class="row">
+                                            <div class="col-xs-6">
+                                                <!-- Name -->
+                                                <input type="text" name="name" id="name" required="required" class="form" placeholder="Name" />
+                                                <!-- Email -->
+                                            </div><!-- End Left Inputs -->
+                                            <div class="col-xs-6">
+                                                <input type="email" name="mail" id="mail" required="required" class="form" placeholder="Email" />
+                                            </div>
+                                        </div>
+                                            <!-- Subject -->
+                                            <input type="text" name="subject" id="subject" required="required" class="form" placeholder="Subject" />
+                                            <!-- Message -->
+                                            <textarea name="message" id="message" class="form textarea"  placeholder="Message"></textarea>
+                                        <!-- Bottom Submit -->
+                                        <div class="relative fullwidth col-xs-12">
+                                            <!-- Send Button -->
+                                            <button type="submit" id="submit" name="submit" class="form-btn semibold">Send Message</button>
+                                        </div><!-- End Bottom Submit -->
+                                        <!-- Clear -->
+                                        <div class="clear"></div>
+                                    </form>
+
+                                    <!-- Your Mail Message -->
+                                    <div class="mail-message-area">
+                                        <!-- Message -->
+                                        <div class="alert gray-bg mail-message not-visible-message">
+                                            <strong>Thank You !</strong> Your email has been delivered.
+                                        </div>
+                                    </div>
+
+                                </div><!-- End Contact Form Area -->
+                            </div><!-- End Inner -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
         </main>    
         <!-- FOOTER Start-->
-        <footer>
-
+        <footer id="footer">
+            <div class="container">
+                <div class="row">
+                    <p class="credit text-center">
+                        Copyright 2015 Test Project. All Right Reserved.
+                    </p>
+                </div>
+            </div>
         </footer>
         <!-- FOOTER End-->
         <!-- Bootstrap core JavaScript
