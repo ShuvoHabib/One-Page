@@ -43,4 +43,8 @@
   .featured:before{
     position: static;
   }
+  .featured-text:before {
+    left: 70px;
+    z-index: -1;
+  }
 }

@@ -12,8 +12,16 @@
   padding-right: 0;
   padding-left: 0; }
 
-.container-fluid {
-  padding: 0; }
+.arrow-up {
+  width: 0;
+  height: 0;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-bottom: 30px solid #fff;
+  margin: 0 auto;
+  position: relative;
+  top: -30px;
+  position: relative; }
 
 body {
   font-family: "PT Sans", sans-serif; }
@@ -27,8 +35,11 @@ a:hover {
   text-decoration: none; }
 
 /* Header */
-li.active-menu {
+li.active, nav li:hover {
   border-bottom: 1px solid #f41434; }
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+  background-color: transparent; }
 
 ul.nav li {
   padding: 10px 0; }
@@ -68,9 +79,10 @@ ul.nav li {
   margin-bottom: 0;
   border: none; }
 
-.stuck {
+.sticky {
   position: fixed;
-  width: 100%; }
+  width: 100%;
+  transition: .4s; }
 
 #nav-stick {
   background: #fff;
@@ -84,23 +96,22 @@ ul.nav li {
   padding-top: 24px; }
 
 a.btn-default {
-  width: 120px;
+  display: inline-block;
   margin: 0 auto;
   text-align: center;
-  display: block;
-  padding: 10px;
+  padding: 10px 30px;
   color: #fff;
   background: #f41434;
   border-radius: 20px;
   text-transform: uppercase; }
 
-.space-bottom {
+.m-bot-100 {
   margin-bottom: 100px; }
 
 /* Featured Block */
-.featured-section {
+.featured-text {
   margin-bottom: 100px; }
-  .featured-section:before {
+  .featured-text:before {
     content: '';
     position: absolute;
     height: 80%;
@@ -122,7 +133,7 @@ a.btn-default {
   left: -40px; }
 
 .icon-flow {
-  font-size: 50px;
+  font-size: 40px;
   float: left;
   width: 80px;
   height: 80px;
@@ -164,8 +175,17 @@ a.btn-default {
 blockquote {
   border-left: none; }
 
+.carousel-indicators .active {
+  width: 10px;
+  height: 10px;
+  background-color: #eaeaea;
+  top: -1px;
+  position: relative;
+  left: 0; }
+
 .carousel-indicators li {
-  border: 1px solid #000; }
+  border: 1px solid #FFF;
+  background-color: #ECECEC; }
 
 .profile-circle img {
   margin: 0 auto;
@@ -280,4 +300,7 @@ footer#footer {
     float: left;
     margin-right: 30px; }
   .featured:before {
-    position: static; } }
+    position: static; }
+  .featured-text:before {
+    left: 70px;
+    z-index: -1; } }
