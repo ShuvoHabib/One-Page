@@ -24,6 +24,7 @@
 
 
     <body>
+        <!--Header Start-->
         <header id="header">
             <!--NAVBAR Start -->
             <div id="nav-stick" class="navbar-wrapper">
@@ -50,8 +51,6 @@
                                             <li><a href="#">Action</a></li>
                                             <li><a href="#">Another action</a></li>
                                             <li><a href="#">Something else here</a></li>
-                                            <li role="separator" class="divider"></li>
-                                            <li class="dropdown-header">Nav header</li>
                                             <li><a href="#">Separated link</a></li>
                                             <li><a href="#">One more separated link</a></li>
                                         </ul>
@@ -72,8 +71,11 @@
             </div>
             <div class="arrow-up"></div>
         </header>
+        <!--Header End-->
         <div class="space-bottom"></div>
+
         <main>
+            <!--Featured Section start-->
             <div class="featured-section container-fluid">
                 <div class="row">
                     <div class="featured">
@@ -123,12 +125,14 @@
                     </div>
                 </div>
             </div>
-
+            <!--Featured Section End-->
+            <!--Connection Section Start-->
             <div class="connection">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-6">
-                            <div class="carousel slide" id="fade-quote-carousel" data-ride="carousel" data-interval="5000">
+                            <div class="testimonial">
+                                <div class="carousel slide" id="fade-quote-carousel" data-ride="carousel" data-interval="5000">
                                 <!-- Carousel indicators -->
                                 <ol class="carousel-indicators">
                                     <li data-target="#fade-quote-carousel" data-slide-to="0" class="active"></li>
@@ -142,7 +146,7 @@
                                         </div>
                                         <div class="arrow-down"></div>
                                         <div class="profile-circle">
-                                            <img src="http://placehold.it/350x150">
+                                            <img src="http://placehold.it/350x350">
                                         </div>
                                         <blockquote>
                                             <p class="author-name text-center">Margarita Rose</p>
@@ -154,13 +158,14 @@
                                         </div>
                                         <div class="arrow-down"></div>
                                         <div class="profile-circle">
-                                            <img src="http://placehold.it/350x150">
+                                            <img src="http://placehold.it/350x350">
                                         </div>
                                         <blockquote>
                                             <p class="author-name text-center">Margarita Rose</p>
                                         </blockquote>
                                     </div>
                                 </div>
+                            </div>
                             </div>
                         </div>
                         <div class="col-md-6">
@@ -180,9 +185,11 @@
                                                 <input type="email" name="mail" id="mail" required="required" class="form" placeholder="Email" />
                                             </div>
                                         </div>
-                                            <!-- Subject -->
+                                        <!-- Subject -->
                                             <input type="text" name="subject" id="subject" required="required" class="form" placeholder="Subject" />
-                                            <!-- Message -->
+                                        <!-- Number -->
+                                            <input type="number" name="number" id="number" required="required" class="form" placeholder="Number" />
+                                        <!-- Message -->
                                             <textarea name="message" id="message" class="form textarea"  placeholder="Message"></textarea>
                                         <!-- Bottom Submit -->
                                         <div class="relative fullwidth col-xs-12">
@@ -192,24 +199,14 @@
                                         <!-- Clear -->
                                         <div class="clear"></div>
                                     </form>
-
-                                    <!-- Your Mail Message -->
-                                    <div class="mail-message-area">
-                                        <!-- Message -->
-                                        <div class="alert gray-bg mail-message not-visible-message">
-                                            <strong>Thank You !</strong> Your email has been delivered.
-                                        </div>
-                                    </div>
-
                                 </div><!-- End Contact Form Area -->
                             </div><!-- End Inner -->
                         </div>
                     </div>
                 </div>
             </div>
-
-
-
+            <!--Connection Section End-->
+            <!--Featured Section End-->
         </main>    
         <!-- FOOTER Start-->
         <footer id="footer">

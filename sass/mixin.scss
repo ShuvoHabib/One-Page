@@ -1,7 +1,7 @@
 @mixin center() {
   position: absolute;
-  left: 0;
-  right: 0;
+  top: 50%;
+  left: 50%;
 }
 @mixin icon-style($width) {
   width: $width;
@@ -11,6 +11,10 @@
 @mixin size($width,$height) {
   width: $width;
   height: $height;
+}
+@mixin equal-size($width) {
+  width: $width;
+  height: $width;
 }
 @mixin block-center() {
   display: block;
