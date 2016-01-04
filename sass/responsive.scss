@@ -1,5 +1,5 @@
-/* RESPONSIVE CSS
--------------------------------------------------- */
+/* RESPONSIVE CSS */
+
 @media (min-width:991px){
   .featured-list {
     width: 65%;
@@ -29,12 +29,15 @@
   }
 }
 @media (max-width:991px) {
-  .featured-img img {
-    position: static;
-    width: 100%;
-    &:before {
-    left: 70px;
-    z-index: -1;
+  .featured-img{
+    margin-bottom: 100px;
+    img {
+      position: static;
+      width: 100%;
+      &:before {
+      left: 70px;
+      z-index: -1;
+    }
   }
 }
   .featured-list {

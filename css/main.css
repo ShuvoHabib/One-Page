@@ -1,27 +1,6 @@
-/* GLOBAL STYLES
--------------------------------------------------- */
+/* GLOBAL STYLES */
 * {
   outline: none; }
-
-.row.no-gutters {
-  margin-right: 0;
-  margin-left: 0; }
-
-.row.no-gutters > [class^="col-"],
-.row.no-gutters > [class*=" col-"] {
-  padding-right: 0;
-  padding-left: 0; }
-
-.arrow-up {
-  width: 0;
-  height: 0;
-  border-left: 30px solid transparent;
-  border-right: 30px solid transparent;
-  border-bottom: 30px solid #fff;
-  margin: 0 auto;
-  position: relative;
-  top: -30px;
-  position: relative; }
 
 .navbar-brand, ul.nav li {
   transition: 0.4s; }
@@ -56,7 +35,7 @@ ul.nav li {
   border-bottom: 30px solid #fff;
   margin: 0 auto;
   position: relative;
-  top: -30px; }
+  top: -125px; }
 
 .banner {
   position: relative;
@@ -158,7 +137,6 @@ a.btn-default {
     font-size: 16px; }
 
 /*Connection */
-/* Carousel */
 .testimonial {
   margin-bottom: 50px; }
 
@@ -230,7 +208,6 @@ ol.carousel-indicators {
   max-height: 200px;
   max-width: 100%; }
 
-/* Send Button Styles */
 .form-btn {
   display: block;
   padding: 10px 30px;
@@ -260,8 +237,7 @@ footer#footer {
   footer#footer p {
     color: #fff; }
 
-/* RESPONSIVE CSS
--------------------------------------------------- */
+/* RESPONSIVE CSS */
 @media (min-width: 991px) {
   .featured-list {
     width: 65%; } }
@@ -285,12 +261,14 @@ footer#footer {
     padding: 20px 0 0; } }
 
 @media (max-width: 991px) {
-  .featured-img img {
-    position: static;
-    width: 100%; }
-    .featured-img img:before {
-      left: 70px;
-      z-index: -1; }
+  .featured-img {
+    margin-bottom: 100px; }
+    .featured-img img {
+      position: static;
+      width: 100%; }
+      .featured-img img:before {
+        left: 70px;
+        z-index: -1; }
   .featured-list {
     margin-top: 40px;
     margin-left: 13px;

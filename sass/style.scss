@@ -1,66 +1,46 @@
-/* GLOBAL STYLES
--------------------------------------------------- */
-*{
+/* GLOBAL STYLES */
+* {
   outline: none;
 }
-.row.no-gutters {
-  margin-right: 0;
-  margin-left: 0; }
 
-.row.no-gutters > [class^="col-"],
-.row.no-gutters > [class*=" col-"] {
-  padding-right: 0;
-  padding-left: 0; }
-
-.arrow-up{
-  width: 0;
-  height: 0;
-  border-left: 30px solid transparent;
-  border-right: 30px solid transparent;
-  border-bottom: 30px solid #fff;
-  margin: 0 auto;
-  position: relative;
-  top: -30px;
-  position: relative;
-}
-.navbar-brand,ul.nav li{
+.navbar-brand, ul.nav li {
   transition: 0.4s;
 }
-body{
-  font-family:$font-family;
-  p{
+
+body {
+  font-family: $font-family;
+  p {
     color: $font-color;
   }
 }
-h1{
+
+h1 {
   font-size: $hero-font-size;
 }
-a:hover{
+
+a:hover {
   text-decoration: none;
 }
 
 /* Header */
 
-li.active, nav li:hover{
+li.active, nav li:hover {
   border-bottom: 1px solid $primary-color;
   transition: 0s;
-
 }
-.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
   background-color: transparent;
 }
+
 ul.nav li {
   padding: 10px 0;
 }
+
 .arrow-up {
-  @include equal-size(0);
-  border-left: 30px solid transparent;
-  border-right: 30px solid transparent;
-  border-bottom: 30px solid $white-color;
-  margin: 0 auto;
-  position: relative;
-  top: -30px;
+  @include arrow(30px, up, $white-color);
 }
+
 .banner {
   position: relative;
   background: {
@@ -71,36 +51,41 @@ ul.nav li {
     position: 50% 50%;
   }
   height: 100vh;
-    &-text {
+  &-text {
     text-align: center;
     color: $white-color;
     @include center();
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
   }
-  p{
+  p {
     line-height: 30px;
     margin: 25px 0;
     color: $white-color;
   }
 }
-.navbar-default{
+
+.navbar-default {
   background: $white-color;
   margin-bottom: 0;
   border: none;
 }
-.sticky{
+
+.sticky {
   position: fixed;
   width: 100%;
   transition: 0.4s;
 }
-#nav-stick{
+
+#nav-stick {
   background: $white-color;
-  width:100%;
+  width: 100%;
   z-index: 99;
 }
-.zero-padding{
-  padding:0 !important;
+
+.zero-padding {
+  padding: 0 !important;
 }
+
 .logo-padding {
   padding-top: 24px;
 }
@@ -115,14 +100,14 @@ a.btn-default {
   border-radius: 20px;
   text-transform: uppercase;
 }
-.m-bot-100{
+
+.m-bot-100 {
   margin-bottom: 100px;
 }
+
 /* Featured Block */
-
-
-.featured-item{
-  &:before{
+.featured-item {
+  &:before {
     content: '';
     position: absolute;
     height: 80%;
@@ -137,7 +122,8 @@ a.btn-default {
   left: -50%;
   width: 140%;
 }
-.icon{
+
+.icon {
   content: '';
   position: absolute;
   height: 90%;
@@ -151,39 +137,43 @@ a.btn-default {
   border-radius: 50%;
   text-align: center;
 }
+
 .featured-list {
   margin-left: 50px;
   margin-top: -20px;
   padding: 20px 0 50px;
 }
+
 .desc {
   position: relative;
   top: -18px;
-  h2{
+  h2 {
     text-transform: uppercase;
     font-size: $font-size + 3;
     font-weight: bold;
   }
-  p{
+  p {
     font-size: $font-size + 1;
   }
 }
+
 /*Connection */
 
-
-/* Carousel */
-.testimonial{
+.testimonial {
   margin-bottom: 50px;
 }
+
 .quote {
-  color: rgba(0,0,0,.1);
+  color: rgba(0, 0, 0, .1);
   text-align: center;
   margin-bottom: 30px;
   border-left: 0 solid $border-color;
 }
-blockquote{
+
+blockquote {
   border-left: none;
 }
+
 .carousel-indicators .active {
   width: 10px;
   height: 10px;
@@ -192,10 +182,12 @@ blockquote{
   position: relative;
   left: 0;
 }
+
 .carousel-indicators li {
   border: 1px solid #FFF;
   background-color: #ECECEC;
 }
+
 .profile-circle img {
   margin: 0 auto;
   display: block;
@@ -203,28 +195,25 @@ blockquote{
   height: 100px;
   border-radius: 50%;
 }
+
 ol.carousel-indicators {
   margin-bottom: -17px;
 }
+
 .testimonial-text.text-center p {
   width: 100%;
   background: $testimonial-bg;
   padding: 30px;
 }
+
 .arrow-down {
-  @include equal-size(0);
-  border-left: 20px solid transparent;
-  border-right: 20px solid transparent;
-  border-top: 20px solid $testimonial-bg;
-  margin: 0 auto;
-  top: -11px;
-  position: relative;
+  @include arrow(20px, down, $testimonial-bg);
 }
 
 /*Contact */
 
-.contact-text{
-  margin:45px auto;
+.contact-text {
+  margin: 45px auto;
 }
 
 /* Input Styles */
@@ -237,18 +226,14 @@ ol.carousel-indicators {
   margin-bottom: 12px;
   color: #727272 !important;
   font-size: 13px;
-  -webkit-transition: all 0.4s;
-  -moz-transition: all 0.4s;
-  transition: all 0.4s;
+  @include web-support(0.4s);
 }
 
-.textarea{
+.textarea {
   height: 200px;
   max-height: 200px;
   max-width: 100%;
 }
-
-/* Send Button Styles */
 
 .form-btn {
   display: block;
@@ -258,17 +243,17 @@ ol.carousel-indicators {
   border: none;
   border-radius: 40px;
   outline: none;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  transition: all 0.3s;
+  @include web-support(0.3s);
   margin: auto;
-  &:active{
-  opacity: 0.9;
+  &:active {
+    opacity: 0.9;
+  }
 }
+
+center {
+  margin-top: 330px;
 }
-center{
-  margin-top:330px;
-}
+
 input {
   position: relative;
   z-index: 9999;
@@ -277,9 +262,9 @@ input {
 /*Footer */
 
 footer#footer {
-  background: black;
+  background: $footer-bg;
   padding: 25px 0;
-  p{
+  p {
     color: $white-color;
   }
 }
