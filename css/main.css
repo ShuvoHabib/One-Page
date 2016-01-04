@@ -24,7 +24,7 @@
   position: relative; }
 
 .navbar-brand, ul.nav li {
-  transition: .4s; }
+  transition: 0.4s; }
 
 body {
   font-family: "PT Sans", sans-serif; }
@@ -86,7 +86,7 @@ ul.nav li {
 .sticky {
   position: fixed;
   width: 100%;
-  transition: .4s; }
+  transition: 0.4s; }
 
 #nav-stick {
   background: #fff;
@@ -126,7 +126,7 @@ a.btn-default {
   left: -50%;
   width: 140%; }
 
-.icon-flow {
+.icon {
   content: '';
   position: absolute;
   height: 90%;
@@ -232,10 +232,8 @@ ol.carousel-indicators {
 
 /* Send Button Styles */
 .form-btn {
-  width: 180px;
-  height: auto;
   display: block;
-  padding: 15px;
+  padding: 10px 30px;
   color: #fff;
   background: #f41434;
   border: none;
@@ -268,9 +266,9 @@ footer#footer {
   .featured-list {
     width: 65%; } }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .logo-padding {
-    padding-top: 12px !important; }
+    padding-top: 15px !important; }
   li.active, nav li:hover {
     border-bottom: 1px solid #fff;
     transition: 0s !important;
@@ -301,7 +299,7 @@ footer#footer {
     width: 90%; }
   .desc {
     overflow: hidden; }
-  .icon-flow {
+  .icon {
     position: static;
     float: left;
     margin-right: 30px; }

@@ -24,7 +24,7 @@
   position: relative;
 }
 .navbar-brand,ul.nav li{
-  transition: .4s;
+  transition: 0.4s;
 }
 body{
   font-family:$font-family;
@@ -75,7 +75,7 @@ ul.nav li {
     text-align: center;
     color: $white-color;
     @include center();
-    transform: translate(-50%, -50%);
+    transform: translate(-50%,-50%);
   }
   p{
     line-height: 30px;
@@ -91,7 +91,7 @@ ul.nav li {
 .sticky{
   position: fixed;
   width: 100%;
-  transition: .4s;
+  transition: 0.4s;
 }
 #nav-stick{
   background: $white-color;
@@ -137,7 +137,7 @@ a.btn-default {
   left: -50%;
   width: 140%;
 }
-.icon-flow {
+.icon{
   content: '';
   position: absolute;
   height: 90%;
@@ -251,9 +251,8 @@ ol.carousel-indicators {
 /* Send Button Styles */
 
 .form-btn {
-  @include size(180px,auto);
   display: block;
-  padding: 15px;
+  padding: 10px 30px;
   color: $white-color;
   background: $primary-color;
   border: none;

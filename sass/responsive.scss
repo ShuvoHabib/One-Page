@@ -5,9 +5,9 @@
     width: 65%;
   }
 }
-@media (max-width:768px){
+@media (max-width:767px){
   .logo-padding {
-    padding-top: 12px !important;
+    padding-top: 15px !important;
   }
   li.active, nav li:hover {
     border-bottom: 1px solid $white-color;
@@ -48,7 +48,7 @@
   .desc {
     overflow: hidden;
   }
-  .icon-flow {
+  .icon{
     position: static;
     float: left;
     margin-right: 30px;
