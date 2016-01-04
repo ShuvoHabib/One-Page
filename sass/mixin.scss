@@ -30,7 +30,6 @@
 @mixin arrow($width, $direction: up, $color:$white-color) {
   width: 0;
   height: 0;
-  // Up
   @if $direction == up {
     border: {
       left: $width solid transparent;
@@ -38,10 +37,13 @@
       bottom: $width solid $color;
     }
     margin: 0 auto;
-    position: relative;
-    top: -125px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    display: block;
   }
-  // Down
   @if $direction == down {
     border: {
       left: $width solid transparent;

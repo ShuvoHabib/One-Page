@@ -34,8 +34,12 @@ ul.nav li {
   border-right: 30px solid transparent;
   border-bottom: 30px solid #fff;
   margin: 0 auto;
-  position: relative;
-  top: -125px; }
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  display: block; }
 
 .banner {
   position: relative;
