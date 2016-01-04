@@ -1,7 +1,7 @@
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 @media (min-width:991px){
-  .about-item {
+  .featured-list {
     width: 65%;
   }
 }
@@ -11,12 +11,12 @@
   }
 }
 @media (max-width:1300px) {
-  .about-item {
+  .featured-list {
     padding: 20px 0 0;
   }
 }
 @media (max-width:991px) {
-  .featured-img {
+  .featured-img img {
     position: static;
     width: 100%;
     &:before {
@@ -24,7 +24,7 @@
     z-index: -1;
   }
 }
-  .about-item {
+  .featured-list {
     margin-top: 40px;
     margin-left: 13px;
     padding:0;
@@ -32,7 +32,7 @@
   .banner .banner-text {
     width: 90%;
   }
-  .text-flow {
+  .desc {
     overflow: hidden;
   }
   .icon-flow {
@@ -43,8 +43,9 @@
   .featured:before{
     position: static;
   }
-  .featured-text:before {
+  .featured-item:before {
     left: 70px;
     z-index: -1;
+    top:10px;
   }
 }

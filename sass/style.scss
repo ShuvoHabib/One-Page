@@ -23,6 +23,9 @@
   top: -30px;
   position: relative;
 }
+.navbar-brand,ul.nav li{
+  transition: .4s;
+}
 body{
   font-family:$font-family;
   p{
@@ -40,6 +43,7 @@ a:hover{
 
 li.active, nav li:hover{
   border-bottom: 1px solid $primary-color;
+  transition: 0s;
 
 }
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
@@ -117,8 +121,7 @@ a.btn-default {
 /* Featured Block */
 
 
-.featured-text{
-  margin-bottom: 100px;
+.featured-item{
   &:before{
     content: '';
     position: absolute;
@@ -129,7 +132,7 @@ a.btn-default {
   }
 }
 
-.featured-img {
+.featured-img img {
   position: relative;
   left: -50%;
   width: 150%;
@@ -139,24 +142,21 @@ a.btn-default {
   position: absolute;
   height: 90%;
   width: 2px;
-  background: $primary-color;
   left: -40px;
-}
-.icon-flow {
-  font-size: 40px;
-  float: left;
   @include icon-style(80px);
   background: $primary-color;
   color: $white-color;
+  font-size: 40px;
+  float: left;
   border-radius: 50%;
   text-align: center;
 }
-.about-item {
+.featured-list {
   margin-left: 50px;
   margin-top: -20px;
   padding: 20px 0 50px;
 }
-.text-flow {
+.desc {
   position: relative;
   top: -18px;
   h2{
@@ -170,9 +170,6 @@ a.btn-default {
 }
 /*Connection */
 
-.connection {
-  margin-bottom: 50px;
-}
 
 /* Carousel */
 .testimonial{

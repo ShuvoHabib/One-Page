@@ -1,7 +1,7 @@
 
 $( document).ready(function() {
     $(window).scroll(function() {
-        if ($(window).scrollTop() > 50) {
+        if ($(window).scrollTop() > 1) {
             $('#nav-stick').addClass('sticky');
             $('.navbar-brand').removeClass('logo-padding');
             $('ul.nav li').addClass('zero-padding');
