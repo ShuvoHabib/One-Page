@@ -11,12 +11,16 @@
   }
   li.active, nav li:hover {
     border-bottom: 1px solid $white-color;
-    transition: 0s;
+    transition: 0s !important;
     background: $primary-color;
-    color: white;
+    border-radius: 4px ;
+    color: $white-color;
   }
-  nav li a:hover {
-    color: white;
+  ul.nav a:hover ,.nav .active a {
+    color: #fff !important;
+  }
+  ul.nav li {
+    padding:0;
   }
 }
 @media (max-width:1300px) {
