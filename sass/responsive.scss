@@ -9,6 +9,15 @@
   .logo-padding {
     padding-top: 12px !important;
   }
+  li.active, nav li:hover {
+    border-bottom: 1px solid $white-color;
+    transition: 0s;
+    background: $primary-color;
+    color: white;
+  }
+  nav li a:hover {
+    color: white;
+  }
 }
 @media (max-width:1300px) {
   .featured-list {
