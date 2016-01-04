@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd8b9a08-55db-4715-93e8-3955702e0122" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/mixin.scss" afterPath="$PROJECT_DIR$/sass/mixin.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/responsive.scss" afterPath="$PROJECT_DIR$/sass/responsive.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/style.scss" afterPath="$PROJECT_DIR$/sass/style.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/variables.scss" afterPath="$PROJECT_DIR$/sass/variables.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
     </list>
     <ignored path="One-Page.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,8 +28,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="7.5790443">
-              <caret line="217" column="98" selection-start-line="217" selection-start-column="98" selection-end-line="217" selection-end-column="98" />
+            <state vertical-scroll-proportion="0.27941176">
+              <caret line="75" column="32" selection-start-line="75" selection-start-column="32" selection-end-line="75" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -87,23 +82,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-2.612903">
               <caret line="177" column="0" selection-start-line="177" selection-start-column="0" selection-end-line="177" selection-end-column="0" />
-              <folding>
-                <marker date="1451905089000" expanded="true" signature="4308:4348" placeholder="{...}" />
-                <marker date="1451905089000" expanded="true" signature="4376:4692" placeholder="{...}" />
-                <marker date="1451905089000" expanded="true" signature="4394:4431" placeholder="{...}" />
-                <marker date="1451905089000" expanded="true" signature="4627:4658" placeholder="{...}" />
-                <marker date="1451905089000" expanded="true" signature="4671:4690" placeholder="{...}" />
-                <marker date="1451905089000" expanded="true" signature="4721:4768" placeholder="{...}" />
-                <marker date="1451905089000" expanded="true" signature="4740:4766" placeholder="{...}" />
-                <marker date="1451905089000" expanded="true" signature="4796:5345" placeholder="{...}" />
-                <marker date="1451905089000" expanded="true" signature="4814:4843" placeholder="{...}" />
-                <marker date="1451905089000" expanded="true" signature="4944:4988" placeholder="{...}" />
-                <marker date="1451905089000" expanded="true" signature="5094:5113" placeholder="{...}" />
-                <marker date="1451905089000" expanded="true" signature="5122:5147" placeholder="{...}" />
-                <marker date="1451905089000" expanded="true" signature="5156:5222" placeholder="{...}" />
-                <marker date="1451905089000" expanded="true" signature="5242:5267" placeholder="{...}" />
-                <marker date="1451905089000" expanded="true" signature="5292:5343" placeholder="{...}" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -112,7 +91,7 @@
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
+              <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -127,12 +106,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/sass/main.scss" />
-        <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/sass/mixin.scss" />
         <option value="$PROJECT_DIR$/sass/responsive.scss" />
         <option value="$PROJECT_DIR$/sass/variables.scss" />
         <option value="$PROJECT_DIR$/sass/style.scss" />
+        <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
@@ -790,38 +769,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.612903">
-          <caret line="177" column="0" selection-start-line="177" selection-start-column="0" selection-end-line="177" selection-end-column="0" />
-          <folding>
-            <marker date="1451905089000" expanded="true" signature="4308:4348" placeholder="{...}" />
-            <marker date="1451905089000" expanded="true" signature="4376:4692" placeholder="{...}" />
-            <marker date="1451905089000" expanded="true" signature="4394:4431" placeholder="{...}" />
-            <marker date="1451905089000" expanded="true" signature="4627:4658" placeholder="{...}" />
-            <marker date="1451905089000" expanded="true" signature="4671:4690" placeholder="{...}" />
-            <marker date="1451905089000" expanded="true" signature="4721:4768" placeholder="{...}" />
-            <marker date="1451905089000" expanded="true" signature="4740:4766" placeholder="{...}" />
-            <marker date="1451905089000" expanded="true" signature="4796:5345" placeholder="{...}" />
-            <marker date="1451905089000" expanded="true" signature="4814:4843" placeholder="{...}" />
-            <marker date="1451905089000" expanded="true" signature="4944:4988" placeholder="{...}" />
-            <marker date="1451905089000" expanded="true" signature="5094:5113" placeholder="{...}" />
-            <marker date="1451905089000" expanded="true" signature="5122:5147" placeholder="{...}" />
-            <marker date="1451905089000" expanded="true" signature="5156:5222" placeholder="{...}" />
-            <marker date="1451905089000" expanded="true" signature="5242:5267" placeholder="{...}" />
-            <marker date="1451905089000" expanded="true" signature="5292:5343" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sass/mixin.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-13.857142">
@@ -856,10 +803,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.612903">
+          <caret line="177" column="0" selection-start-line="177" selection-start-column="0" selection-end-line="177" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="7.5790443">
-          <caret line="217" column="98" selection-start-line="217" selection-start-column="98" selection-end-line="217" selection-end-column="98" />
+        <state vertical-scroll-proportion="0.27941176">
+          <caret line="75" column="32" selection-start-line="75" selection-start-column="32" selection-end-line="75" selection-end-column="32" />
           <folding />
         </state>
       </provider>

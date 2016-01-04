@@ -11,4 +11,6 @@ $( document).ready(function() {
             $('ul.nav li').removeClass('zero-padding');
         }
     });
+
+    new WOW().init();
 });
